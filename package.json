@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hakeem1106/apiflex/issues"
   },
-  "homepage": "https://github.com/hakeem1106/apiflex#readme"
+  "homepage": "https://github.com/hakeem1106/apiflex#readme",
+  "dependencies": {
+    "nodejs": "0.0.0"
+  }
 }
