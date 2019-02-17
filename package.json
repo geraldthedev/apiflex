@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/hakeem1106/apiflex#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "nodejs": "0.0.0"
-  }
+  },
+  "devDependencies": {}
 }
