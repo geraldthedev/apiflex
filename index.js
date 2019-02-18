@@ -12,8 +12,18 @@ body.appendChild(addbutto).setAttribute("id", "taken");
 addbutto.addEventListener("click", couta = ()=>{
 
     body.appendChild(space);
-    body.appendChild(pieces);
+    let newPiece = body.appendChild(pieces).setAttribute( "id", "clickbox");
+
+
+    addbutto.addEventListener("click", dissa =()=>{
+        if(pieces === true){
+
+
+        }
+    })
 });
+
+
 
 
 
