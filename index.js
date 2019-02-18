@@ -11,12 +11,16 @@ body.appendChild(addbutto).setAttribute("id", "taken");
 
 addbutto.addEventListener("click", couta = ()=>{
 
+
     body.appendChild(space);
-    let newPiece = body.appendChild(pieces).setAttribute( "id", "clickbox");
+    body.appendChild(pieces).setAttribute( "id", "clickbox");
+
 
 
     addbutto.addEventListener("click", dissa =()=>{
-        if(pieces === true){
+        if(pieces.addEventListener("load") === true){
+
+            pieces.blur();
 
 
         }
