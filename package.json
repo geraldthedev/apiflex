@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "live-server": "^1.2.1",
+    "mongoose": "^5.4.13",
     "nodejs": "0.0.0"
   },
   "devDependencies": {}

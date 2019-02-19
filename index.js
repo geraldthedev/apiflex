@@ -12,12 +12,18 @@ addbutto.innerText = "Start";
 
 
 addbutto.addEventListener("click", couta = ()=>{
-
+    let newForm = document.createElement("form");
 
     body.appendChild(space);
-    body.appendChild(pieces).setAttribute( "id", "clickbox");
-    body.appendChild(subbutto).setAttribute("id", "subbox");
+    space.appendChild(newForm);
+
+    newForm.appendChild(pieces).setAttribute( "id", "clickbox");
+    newForm.appendChild(subbutto).setAttribute("id", "subbox");
     subbutto.innerText = "Submit";
+    newForm.setAttribute("method", "post");
+
+
+
 
 
     });

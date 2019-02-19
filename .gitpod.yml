@@ -5,5 +5,5 @@ ports:
 - port: 8000
 tasks:
     - command: npm install -g npm
-    - command: npm install live-server && live-server --port=3000
     
+
