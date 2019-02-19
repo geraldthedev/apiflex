@@ -21,6 +21,7 @@ addbutto.addEventListener("click", couta = ()=>{
     newForm.appendChild(subbutto).setAttribute("id", "subbox");
     subbutto.innerText = "Submit";
     newForm.setAttribute("method", "post");
+    newForm.setAttribute("action", "/app");
 
 
 

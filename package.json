@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hakeem1106/apiflex#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "live-server": "^1.2.1",
     "mongoose": "^5.4.13",
