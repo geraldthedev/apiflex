@@ -4,7 +4,8 @@ ports:
 - port: 8080
 - port: 8000
 tasks:
-    - command: npm install -g npm && npm install live-server -g
-    - command: node db.js
+    - command: npm install -g npm
+    - command: npm install live-server -g && live-server --port=3000
+
 
 
