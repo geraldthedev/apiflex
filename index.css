@@ -1,7 +1,12 @@
 #taken{
-   
+
 }
 
 #clickbox{
     width: 25em;
+}
+
+#newdiv1{
+    background-color:  darkslategray;
+    box-shadow: 30px 10px gray;
 }

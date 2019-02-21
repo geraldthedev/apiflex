@@ -15,7 +15,7 @@ addbutto.addEventListener("click", couta = ()=>{
     let newForm = document.createElement("form");
 
     body.appendChild(space);
-    space.appendChild(newForm);
+    space.appendChild(newForm).setAttribute("id", "newdiv1");
 
     newForm.appendChild(pieces).setAttribute( "id", "clickbox");
     newForm.appendChild(subbutto).setAttribute("id", "subbox");
