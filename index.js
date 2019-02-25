@@ -22,6 +22,7 @@ addbutto.addEventListener("click", couta = ()=>{
     subbutto.innerText = "Submit";
     newForm.setAttribute("method", "post");
     newForm.setAttribute("action", "/app");
+    addbutto.style.display = "none";
 
 
 

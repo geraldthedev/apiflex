@@ -3,10 +3,18 @@
 }
 
 #clickbox{
-    width: 25em;
+    width: 12em;
+    border-radius: 20px;
 }
 
 #newdiv1{
     background-color:  darkslategray;
     box-shadow: 30px 10px gray;
+    text-align: center;
+    border-style: inset;
+    border-radius: 20px;
+    height: 10em;
+    border-width: 20px;
+
+
 }
