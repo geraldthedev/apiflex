@@ -8,10 +8,10 @@
 }
 
 #newdiv1{
-    background-color:  darkslategray;
+    background-color:  rgb(47, 56, 79);
     box-shadow: 30px 10px gray;
     text-align: center;
-    border-style: inset;
+    
     border-radius: 20px;
     height: 10em;
     border-width: 20px;
