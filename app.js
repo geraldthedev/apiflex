@@ -7,7 +7,7 @@ const express = require('express'),
       client = new MongoClient(uri, { useNewUrlParser: true });
 
 
-const nowConn=()=> client.connect(err => {
+nowConn=()=> client.connect(err => {
   console.log("db connected")
 });
 
@@ -25,4 +25,4 @@ app.listen(port, () => {
  console.log("Server listening on port " + port);
 });
 
-export default nowConn();
+export default nowConn;

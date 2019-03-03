@@ -1,4 +1,4 @@
-import newConn  from 'app.js';
+import newConn  from './app.js';
 let body = document.getElementById("root");
 let space = document.createElement("div");
 const pieces = document.createElement("input");
@@ -25,7 +25,7 @@ addbutto.addEventListener("click", couta = ()=>{
     addbutto.style.display = "none";
 
  subbutto.addEventListener("click", postIt =()=>{
-        newConn();
+        
 
     });
     });
