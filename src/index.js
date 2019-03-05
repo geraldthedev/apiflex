@@ -1,4 +1,5 @@
-import newConn  from '../app.js';
+import newConn  from './app.js';
+import './index.css';
 let body = document.getElementById("root");
 let space = document.createElement("div");
 const pieces = document.createElement("input");
